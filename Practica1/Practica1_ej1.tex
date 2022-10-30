@@ -1,0 +1,46 @@
+\documentclass[fleqn, 10pt]{article}
+
+% Paquetes necesarios
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsthm}
+\usepackage{nccmath} %Para centrar ecuaciones
+\usepackage{enumitem}
+
+% Personalizo mi alfabeto
+\DeclareMathAlphabet{\pazocal}{OMS}{zplm}{m}{n}
+\newcommand{\Lb}{\pazocal{L}}
+
+
+\theoremstyle{plain}
+\newtheorem{proposicion}{Proposición}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definición}[section]
+\newtheorem{example}{Ejemplo}[section]
+
+%Definimos el título
+\title{Teoría de Autómatas y Lenguajes Formales\\[.4\baselineskip]Práctica 1: Latex y expresiones regurales}
+\author{Alba Robles Morales}
+\date{\today}
+
+
+
+%Comienzo del documento
+\begin{document}
+
+%Generamos el título
+\maketitle
+
+\section{Encuentra el conjunto $R^3$ de $R$ =\{(1,1),(1,2),(2,3),(3,4)\} }
+
+En primer lugar, debemos encontar $R^2$ :\\
+\begin{center} 
+$R^2$ = \{(1,1),(1,2),(1,3),(2,4)\}
+\end{center}
+
+Una vez tenemos $R^2$ podemos encontrar $R^3$ de la misma manera:\\
+\begin{center} 
+$R^3$= \{(1,1),(1,2),(1,3),(1,4)\}
+\end {center}
+\end{document}
